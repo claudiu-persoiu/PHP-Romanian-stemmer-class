@@ -3,11 +3,11 @@ PHP Romanian stemmer class
 
 The implementation was done according to Romanian stemmer algorithm in Snowball.  If you find issue, please send an email to claudiu@claudiupersoiu.ro.
 
+Stemming = In linguistic morphology and information retrieval, stemming is the process for reducing inflected (or sometimes derived) words to their stem, base or root form—generally a written word form. The stem need not be identical to the morphological root of the word; it is usually sufficient that related words map to the same stem, even if this stem is not in itself a valid root. (http://en.wikipedia.org/wiki/Stemming)
+
 PHP5 Implementation of the Snowball Romanian stemming algorithm (http://snowball.tartarus.org/algorithms/romanian/stemmer.html).
 
 The stemmer should work bouth with or without diacritics.
-
-Enjoy, and don't forget to report bugs at claudiu@claudiupersoiu.ro
 
 USAGE
 =====
