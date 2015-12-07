@@ -180,13 +180,11 @@ for($i = 0; $i < count($words); $i++) {
     $word = $words[$i];
     $expected = $expectedResults[$i];
     $stem = RomanianStemmer::Stem($words[$i]);
-    $res = strcmp($stem, $expected) === 0;
 
-    echo $words[$i] . ' - ' . $stem . ' - ';
-    echo $res ? 'Success': ' Expected: ' . $expected . ' Fail';
-    echo PHP_EOL;
-    if (!$res) {
-        die(10);
+    if (strcmp($stem, $expected) !== 0) {
+        echo 'Word: ' . $words[$i] . ' - Stem ' . $stem . ' - Expected: ' . $expected . PHP_EOL;
+        exit(1);
     }
-
 }
+
+echo 'Success';
