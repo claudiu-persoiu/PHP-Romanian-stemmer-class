@@ -4,6 +4,7 @@
  * Usage exemple for RomanianStemmer
  */
 
+
 // the output must be UTF-8 for diacritics
 header ('Content-type: text/html; charset=utf-8');
 
