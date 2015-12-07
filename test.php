@@ -168,7 +168,7 @@ ocup
 ocup
 ocupanţ
 ocupanţ
-ocupp
+ocup
 ocup
 HERE;
 
