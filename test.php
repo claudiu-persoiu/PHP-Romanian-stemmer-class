@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Usage exemple for RomanianStemmer
+ * Test script for RomanianStemmer
  */
 
 require 'RomanianStemmer.php';
